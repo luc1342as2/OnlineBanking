@@ -1,1 +1,1 @@
-# OnlineBanking
+I created this InvestmentPage project to showcase my skills in HTML, CSS, and JavaScript. This project features a visually appealing and responsive landing page designed for an investment platform. I focused on creating a clean and professional layout with sections for services, benefits, and a call-to-action for users. The design is fully responsive, ensuring a seamless user experience on both desktop and mobile devices. This project highlights my ability to build functional and attractive web pages tailored to specific industries.
