@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In / Register</title>
+  <link rel="stylesheet" href="/Investment Website/styles/loginpage.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Top Investing Hub</h1>
+  </header>
+  <main>
+    <h3 id="form-title">Sign In</h3>
+    <form id="user-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <div id="email-field" class="hidden">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+      </div>
+
+      <button type="submit" id="form-button">Login</button>
+      <p id="toggle-message">
+        Don't have an account? <a href="#" id="toggle-link">Register here</a>
+      </p>
+    </form>
+  </main>
+  <script src="/Investment Website/scripts/loginpage.js"></script>
+  <footer>
+    <p>&copy; 2024 Top Investing Hub. All rights reserved.</p>
+  </footer>
+</body>
+</html>
