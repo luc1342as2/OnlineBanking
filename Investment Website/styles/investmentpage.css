@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main container */
+main {
+  text-align: center;
+  width: 80%;
+  max-width: 700px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* News section styling */
+#news-section {
+  margin-top: 20px;
+}
+
+#news-section h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+#news-list {
+  list-style: none;
+  padding: 0;
+}
+
+#news-list li {
+  margin-bottom: 10px;
+}
+
+#news-list a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #007bff;
+  display: block;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+#news-list a:hover {
+  background: #007bff;
+  color: white;
+  border-color: #0056b3;
+}
+
+/* Calculator section styling */
+#calculator-section {
+  margin-top: 20px;
+  text-align: left;
+}
+
+#calculator-section h2 {
+  font-size: 24px;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+#investment-calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+#investment-calculator label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#investment-calculator input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#investment-calculator button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#investment-calculator button:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: bold;
+}
