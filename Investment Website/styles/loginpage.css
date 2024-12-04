@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+main h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label, form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Button Styles */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Toggle Message Styles */
+#toggle-message {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#toggle-message a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#toggle-message a:hover {
+    text-decoration: underline;
+}
+
+/* Hidden Elements */
+.hidden {
+    display: none;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+}
